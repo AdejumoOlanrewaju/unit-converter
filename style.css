@@ -1,0 +1,150 @@
+*{
+  box-sizing : border-box;
+}
+
+body{
+  margin : 0;
+  padding : 20px;
+  display : flex;
+  flex-direction : column;
+  align-items : center;
+  min-width : 100%;
+}
+
+.container{
+  width : 550px;
+  height : 729px;
+  background : #1f2937;
+  font-family : 'Inter', sans-serif;
+}
+
+.header{
+  width : 550px;
+  height : 285px;
+  background : linear-gradient(#ca43ff,#43b4ff,#6943ff) ;
+  text-align : center;
+}
+
+.header-head{
+  font-family : 'Inter', sans-serif;
+  font-weight : 800;
+  font-size : 28px;
+  text-align : center;
+  margin: 0 0 0 0;
+  padding-top : 20px;
+  color : white;
+}
+.header-text{
+   margin-top : 5px;
+   color : #ffffff;
+   font-weight : 400;
+   font-size : 14px;
+   text-transform: uppercase;
+}
+.num-div{
+  width : 139px;
+  height : 80px;
+  padding-left : 0px;
+  border : 2px solid #b295ff;
+  margin : 0 auto;
+  display : flex;
+  align-items : center;
+  margin-bottom : 0;
+  text-align : center;
+  background :#4f3f8d;
+  color  : white;
+  outline : none;
+
+}
+
+input{
+  font-weight : 800;
+  font-size : 20px;
+  font-family : 'Inter', sans-serif;
+}
+
+
+.convert{
+  padding : 15px 30px;
+  background : white;
+  color : black;
+  border : none;
+  border-radius : 7px;
+  margin-top : 20px;
+  cursor : pointer;
+}
+
+
+.convert:active {
+  background : black;
+  color : white;
+}
+
+main{
+  padding : 30px 25px;
+}
+
+section {
+  background : #273549;
+  width : 500px;
+  height : 108px;
+}
+
+
+.main-header{
+  text-align : center;
+  padding-top : 30px;
+  margin-bottom : 5px;
+  font-weight : 600;
+  font-size  : 20px;
+  color : #ccc1ff;
+}
+
+.main-text{
+  margin : 5px 0 10px 0;
+  text-align : center;
+  font-weight : 400;
+  font-size : 14px;
+  color : #ffffff;
+}
+
+@media(max-width : 450px){
+  .container{
+    width : 300px;
+    min-width : 100%;
+  }
+
+  .num-div{
+    padding-left : 0;
+  }
+  .header{
+    width : 100%;
+  }
+  section{
+    width : 100%
+  }
+}                      
+
+@media(max-width :200px){
+  .container{
+    width : 200px;
+    min-width : 100%;
+  }
+  .header{
+    width : 100%;
+  }
+  section{
+    width : 100%
+  }
+
+    
+  .main-header{
+    padding-top : 10px;
+  }
+}              
+
+@media(min-width : 1300px){
+  .num-div{
+    padding-left : 10px;
+  }
+}

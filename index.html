@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel = "stylesheet" href = "style.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&family=Open+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <title>Document</title>
+</head>
+<body>
+  <script src = "index.js" defer></script>
+  <div class = container>
+    <header class = "header">
+       <h2 class = "header-head">Metric/Imperial Unit Conversion</h2>
+       <!-- <div class = "num-div">
+        <p class = "num">20</p>
+      </div> -->
+      <p class = "header-text">Input your value</p>
+      <input id = "input-el" class = "num-div" type = "number" placeholder = "Value"/>
+      <button id = "btn" class = "convert">Convert</button>
+    </header>
+
+    <main>
+      <section>
+        <h2 class = "main-header">Length (Meter/Feet)</h2>
+        <p id = "el-1"class = "main-text"></p>
+      </section>
+      <section>
+        <h2 class = "main-header">Volume (Litres/Gallons)</h2>
+        <p id = "el-2"class = "main-text"></p>
+      </section>
+      <section>
+        <h2 class = "main-header">Mass (Kilo/Pounds)</h2>
+        <p id = "el-3"class = "main-text"></p>
+      </section>
+    </main>
+  </div>
+
+</body>
+</html>
